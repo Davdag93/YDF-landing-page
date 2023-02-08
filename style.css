@@ -1,0 +1,26 @@
+/* IMG HEADER */
+div {
+    border: 1px solid black;
+}
+.navbar {
+    position: relative;
+    top: -10px;
+    margin-bottom: -17px;
+}
+
+.sfondo-header {
+    background-image: url("img/header.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 85vh;
+    color: white;
+}
+@media screen and (min-width: 1280px) {
+    .sfondo-header {
+        background-size: 100% auto;
+    }
+}
+.barra {
+    background-color: rgb(85, 82, 82);
+    height: 25vh;
+}
