@@ -1,6 +1,6 @@
 /* IMG HEADER */
 div {
-    border: 1px solid black;
+    brder: 1px solid black;
 }
 .navbar {
     position: relative;
@@ -21,6 +21,62 @@ div {
     }
 }
 .barra {
-    background-color: rgb(85, 82, 82);
+    background-color: rgb(225, 225, 225);
     height: 25vh;
+    width: 100%;
+    margin: 0;
 }
+
+/* sezione 1 slider */
+ .carousel-inner {
+    height: 65vh;
+}
+.carousel-item {
+    height: 100%;
+} 
+
+/*sezion 2 */
+ .carousel-caption-1 {
+    background-color: white;
+    color: black;
+    padding: 0;
+    padding-top: 3px;
+    margin:0;
+    left: 0;
+    height: 20%;
+    width: 0%;
+    font-weight: bold;
+    visibility: hidden;
+    transition: 1s
+}
+.carousel-1:hover .carousel-caption-1 {
+    visibility: visible;
+    width: 55%;
+  }
+  .carousel-1:hover .txt-effect {
+    visibility: visible;
+  }
+  .txt-effect {
+    visibility: hidden;
+    transition: 0.2s;
+  } 
+/* sezione 3 caratteristiche metallo */ 
+.rounded-circle {
+    background-color: rgb(235, 235, 235); 
+    filter: grayscale(1);
+}
+.rounded-circle ~ p {
+    font-size: 11px;
+}
+/*sezione 4 con slider Ottone */
+ .carousel-caption {
+    background-color: white;
+    color: black;
+    padding: 0;
+    padding-top: 3px;
+    margin:0;
+    left: 0;
+    height: 40px;
+    width: 60%;
+    font-weight: bold;
+} 
