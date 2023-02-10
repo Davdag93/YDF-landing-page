@@ -1,6 +1,9 @@
+span {
+    font-weight: bold;
+}
 /* IMG HEADER */
 div {
-    brder: 1px solid black;
+    borer: 1px solid black;
 }
 .navbar {
     position: relative;
@@ -47,7 +50,7 @@ div {
     width: 0%;
     font-weight: bold;
     visibility: hidden;
-    transition: 1s
+    transition: 1s;
 }
 .carousel-1:hover .carousel-caption-1 {
     visibility: visible;
@@ -61,15 +64,15 @@ div {
     transition: 0.2s;
   } 
 /* sezione 3 caratteristiche metallo */ 
-.rounded-circle {
+.rounded-circle-1 {
     background-color: rgb(235, 235, 235); 
     filter: grayscale(1);
 }
 .rounded-circle ~ p {
-    font-size: 11px;
+    font-size: 10px;
 }
 /*sezione 4 con slider Ottone */
- .carousel-caption {
+ .carousel-caption-2 {
     background-color: white;
     color: black;
     padding: 0;
@@ -80,3 +83,67 @@ div {
     width: 60%;
     font-weight: bold;
 } 
+
+/* sezione 5 griglia img */
+.carousel-caption-3 {
+    background-color: white;
+    color: black;
+    padding: 0;
+    padding-top: 3px;
+    margin:0;
+    left: 0;
+    height: 40px;
+    width: 80%;
+    font-weight: bold;
+} 
+.griglia-img {
+    height: 60vh;
+    overflow: hidden;
+}
+.txt-btn {
+    font-size: 10px;
+    margin: 0 ;
+    border-radius: 0;
+}
+.btn-outline-secondary:hover .txt-btn{
+    color: white;
+}
+
+/* sezione 6 caratteristiche dell'ottone */
+.rounded-circle-2 {
+    background-color: rgb(207, 197, 123); 
+    filter: sepia(1);
+}
+
+/* sezione 8 sostenibilità */
+.sf-banner {
+    background-color: rgb(23, 23, 23);
+    width: 100%;
+    margin: 0;
+    height: 75vh;
+    overflow: hidden;
+}
+.sf-banner-sost {
+    background-image: url(img/sostenibilità.png);
+    background-position: inherit;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.testo {
+    padding-left: 16%;
+    padding-right: 10%;
+    line-height: 2;
+}
+.bollino {
+    background-image: url(img/ecovadis.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+    top: -45%;
+    left: 105%;
+    width: 250px;
+    height: 250px;
+}
