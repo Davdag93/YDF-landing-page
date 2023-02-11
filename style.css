@@ -3,7 +3,7 @@ span {
 }
 /* IMG HEADER */
 div {
-    borer: 1px solid black;
+    borer: 1px solid rgb(255, 255, 255);
 }
 .navbar {
     position: relative;
@@ -23,6 +23,7 @@ div {
         background-size: 100% auto;
     }
 }
+/* barra 50 anni*/
 .barra {
     background-color: rgb(225, 225, 225);
     height: 25vh;
@@ -105,7 +106,7 @@ div {
     margin: 0 ;
     border-radius: 0;
 }
-.btn-outline-secondary:hover .txt-btn{
+.btn-outline-dark:hover .txt-btn{
     color: white;
 }
 
@@ -117,7 +118,7 @@ div {
 
 /* sezione 8 sostenibilità */
 .sf-banner {
-    background-color: rgb(23, 23, 23);
+    background-color: rgb(20, 20, 20);
     width: 100%;
     margin: 0;
     height: 75vh;
@@ -146,4 +147,22 @@ div {
     left: 105%;
     width: 250px;
     height: 250px;
+}
+
+/* footer */
+.barra-ft {
+    background-color: #1d1d1d;
+    color:white;
+    width: 100%;
+    margin: 0;
+}
+.ft-txt {
+    color: rgb(205, 204, 204);
+}
+.ft-txt:hover {
+    color:white;
+}
+.icon-ft {
+    width: 22px;
+    height: 22px;
 }
