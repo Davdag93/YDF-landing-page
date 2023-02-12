@@ -149,11 +149,12 @@ span {
 .testo {
     padding-left: 16%;
     padding-right: 5%;
+    line-height: 2;
 }
 @media only screen and (max-width: 650px) {
     .testo{
     padding: 5%;
-    line-height: 1.6;
+    line-height: 1.2;
     }
 }
 .bollino {
@@ -163,7 +164,7 @@ span {
     background-size: auto;
     position: relative;
     top: -45%;
-    left: 100%;
+    left: 102%;
     width: 250px;
     height: 250px;
 }
