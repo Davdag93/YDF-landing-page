@@ -167,8 +167,10 @@ span {
     width: 250px;
     height: 250px;
 }
-@media only screen and (min-width:400px) and (max-width:600px) {
-    
+@media only screen and (min-width:400px) and (max-width:700px) {
+    .bollino {
+        visibility: hidden;
+    }
 }
 
 /* footer */
