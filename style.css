@@ -3,7 +3,7 @@ span {
 }
 /* IMG HEADER */
 div {
-    border: 1px solid rgb(0, 0, 0);
+    borer: 1px solid rgb(0, 0, 0);
 }
 .navbar {
     position: relative;
@@ -34,6 +34,11 @@ div {
     height: 25vh;
     width: 100%;
     margin: 0;
+}
+@media only screen and (max-width: 650px) {
+    .barra {
+        line-height: 1.2;
+    }
 }
 
 /* sezione 1 slider */
@@ -141,6 +146,12 @@ div {
     padding-left: 16%;
     padding-right: 10%;
     line-height: 2;
+}
+@media only screen and (max-width: 650px) {
+    .testo{
+    padding: 5%;
+    line-height: 1.6;
+    }
 }
 .bollino {
     background-image: url(img/ecovadis.png);
