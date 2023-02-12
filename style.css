@@ -109,7 +109,7 @@ span {
     margin:0;
     left: 0;
     height: 40px;
-    width: 80%;
+    width: 85%;
     font-weight: bold;
 } 
 .griglia-img {
@@ -148,7 +148,7 @@ span {
 }
 .testo {
     padding-left: 16%;
-    padding-right: 8%;
+    padding-right: 5%;
 }
 @media only screen and (max-width: 650px) {
     .testo{
@@ -163,7 +163,7 @@ span {
     background-size: auto;
     position: relative;
     top: -45%;
-    left: 105%;
+    left: 100%;
     width: 250px;
     height: 250px;
 }
