@@ -1,10 +1,10 @@
+* {
+    font-family: 'Poppins', sans-serif;  
+}
 span {
     font-weight: bold;
 }
 /* IMG HEADER */
-div {
-    borer: 1px solid rgb(0, 0, 0);
-}
 .navbar {
     position: relative;
     top: -10px;
@@ -17,6 +17,10 @@ div {
     background-position: center; 
     height: 85vh;
     color: white;
+}
+.testo-sp {
+    letter-spacing: 10px;
+    margin-bottom: 0;
 }
 @media screen and (min-width: 1366px) {
     .sfondo-header {
@@ -35,6 +39,7 @@ div {
     width: 100%;
     margin: 0;
 }
+
 @media only screen and (max-width: 650px) {
     .barra {
         line-height: 1.2;
@@ -112,7 +117,6 @@ div {
     overflow: hidden;
 }
 .txt-btn {
-    font-size: 10px;
     margin: 0 ;
     border-radius: 0;
 }
@@ -144,8 +148,7 @@ div {
 }
 .testo {
     padding-left: 16%;
-    padding-right: 10%;
-    line-height: 2;
+    padding-right: 8%;
 }
 @media only screen and (max-width: 650px) {
     .testo{
